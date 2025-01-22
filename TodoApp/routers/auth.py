@@ -10,6 +10,7 @@ from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
 from fastapi.templating import Jinja2Templates
+import secrets
 
 
 router = APIRouter(
@@ -17,7 +18,7 @@ router = APIRouter(
     tags=['auth']
 )
 
-SECRET_KEY = 'b903c10a1ebd7ed293bba9a497dea7b46863042092e79cf5c8fd0f9c7f068b28'
+SECRET_KEY = secrets.token_hex(32)
 ALGORITHM = 'HS256'
 
 bcrypt_context =  CryptContext(schemes=['bcrypt'], deprecated = 'auto')
