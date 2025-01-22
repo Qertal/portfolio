@@ -33,6 +33,8 @@ TodoApp is an application designed for task management. It allows users to creat
    ```
 
 3. Configure the database (default is MySQL):
+   - In tables.sql file you have queries to generate tables.
+   OR
    - Modify the `database.py` file if you wish to use a different database (e.g., SQLite).
 
 4. Run the application:
