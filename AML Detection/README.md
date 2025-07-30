@@ -1,4 +1,4 @@
-# 🕵️ Synthetic Transaction Monitoring – AML Fraud Detection
+# Synthetic Transaction Monitoring – AML Fraud Detection
 
 This repository contains a Jupyter notebook analyzing a synthetic dataset of financial transactions with the goal of detecting potential money laundering activities using supervised machine learning techniques.
 
@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook analyzing a synthetic dataset of fin
 
 ##  Dataset
 
-Dataset: [Synthetic Transaction Monitoring Dataset - AML](https://www.kaggle.com/datasets/hidalgokim/synthetic-transaction-monitoring-dataset-aml)
+Dataset: [Synthetic Transaction Monitoring Dataset - AML](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
 
 File used: `SAML-D.csv`
 
