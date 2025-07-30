@@ -24,12 +24,24 @@ The dataset includes anonymized information about:
 -  **Model Training**: 
   - `RandomForestClassifier`
   - `XGBoost (XGBClassifier)`
--  **Imbalanced Learning**: Tuning `scale_pos_weight` for rare fraud cases.
+-  **Imbalanced Learning**: Tuning features
 -  **Model Evaluation**: 
   - Confusion matrix
   - F1-score
   - ROC-AUC
 -  **Feature Importance**: Extraction and visualization of top contributing features.
+
+## Main Chapters
+
+-   Importing necessary packages
+-   Importing dataset & EDA
+-   Data Visualizations
+-   Skewness test
+-   Preparing data and preprocessing
+-   Finding best model and model val
+-   Kicking out a Laundering_type feature, to make a scenario harder
+-   Changing from randomforest into XGBoost
+-   Analyzing the best model
 
 ---
 
@@ -39,3 +51,7 @@ Install dependencies via `pip`:
 
 ```bash
 pip install pandas scikit-learn xgboost matplotlib seaborn
+```
+If you have any questions to me, feel free to contact via Email/Linkedin
+qertal123@gmail.com
+https://www.linkedin.com/in/paweldrzyzga/
