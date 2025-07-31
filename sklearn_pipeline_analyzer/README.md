@@ -2,6 +2,10 @@
 
 A simple Streamlit app for analyzing trained scikit-learn `Pipeline` objects.
 
+## Streamlit app page
+
+If you want to test it without installing it on your own, you can visit [Pipeline Analyzer](https://pipeline-analyzer.streamlit.app/)
+
 ## Features
 
 - Upload a `.pkl` file with a trained `Pipeline`
@@ -34,3 +38,5 @@ Project is in "early access", if you have any suggestions, bugs or whatever, fee
 - email: qertal123@gmail.com
 - [GitHub](https://github.com/qertal)
 - [LinkedIn](https://www.linkedin.com/in/paweldrzyzga/)
+
+If you found a package, that should be in requirements, give me info too, please.
