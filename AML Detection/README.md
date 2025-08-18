@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook analyzing a synthetic dataset of fin
 
 ##  Dataset
 
-Dataset: [Synthetic Transaction Monitoring Dataset - AML](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
+Dataset: [Anti Money Laundering Transaction Data (SAML-D)](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml)
 
 File used: `SAML-D.csv`
 
